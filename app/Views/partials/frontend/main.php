@@ -54,11 +54,10 @@
                                         <ul id="navigation">
                                             <li><a class="active" href="index.html">home</a></li>
                                             <li><a href="about.html">About</a></li>
-                                            <li><a class="" href="travel_destination.html">Destination</a></l/li>
-                                            <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                            <li><a class="" href="travel_destination.html">Destination</a></l/li> <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
-                                                        <li><a href="destination_details.html">Destinations details</a></li>
-                                                        <li><a href="elements.html">elements</a></li>
+                                                    <li><a href="destination_details.html">Destinations details</a></li>
+                                                    <li><a href="elements.html">elements</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="#">blog <i class="ti-angle-down"></i></a>
@@ -68,8 +67,8 @@
                                                 </ul>
                                             </li>
                                             <li><a href="/admin">
-                                                <button class="btn btn-success btn-sm">Admin</button>
-                                            </a></li>
+                                                    <button class="btn btn-success btn-sm">Admin</button>
+                                                </a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -179,7 +178,7 @@
                                 </select>
                             </div>
                             <div class="search_btn">
-                                <button class="boxed-btn4 " type="submit" >Search</button>
+                                <button class="boxed-btn4 " type="submit">Search</button>
                             </div>
                         </form>
                     </div>
@@ -188,7 +187,7 @@
         </div>
     </div>
     <!-- where_togo_area_end  -->
-    
+
     <!-- popular_destination_area_start  -->
     <div class="popular_destination_area">
         <div class="container">
@@ -207,8 +206,8 @@
                             <img src="frontend/img/destination/1.png" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Italy <a href="travel_destination.html">  07 Places</a> </p>
-                            
+                            <p class="d-flex align-items-center">Italy <a href="travel_destination.html"> 07 Places</a> </p>
+
                         </div>
                     </div>
                 </div>
@@ -218,8 +217,8 @@
                             <img src="frontend/img/destination/2.png" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Brazil <a href="travel_destination.html">  03 Places</a> </p>
-                            
+                            <p class="d-flex align-items-center">Brazil <a href="travel_destination.html"> 03 Places</a> </p>
+
                         </div>
                     </div>
                 </div>
@@ -229,8 +228,8 @@
                             <img src="frontend/img/destination/3.png" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">America <a href="travel_destination.html">  10 Places</a> </p>
-                            
+                            <p class="d-flex align-items-center">America <a href="travel_destination.html"> 10 Places</a> </p>
+
                         </div>
                     </div>
                 </div>
@@ -240,8 +239,8 @@
                             <img src="frontend/img/destination/4.png" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Nepal <a href="travel_destination.html">  02 Places</a> </p>
-                            
+                            <p class="d-flex align-items-center">Nepal <a href="travel_destination.html"> 02 Places</a> </p>
+
                         </div>
                     </div>
                 </div>
@@ -251,8 +250,8 @@
                             <img src="frontend/img/destination/5.png" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Maldives <a href="travel_destination.html">  02 Places</a> </p>
-                            
+                            <p class="d-flex align-items-center">Maldives <a href="travel_destination.html"> 02 Places</a> </p>
+
                         </div>
                     </div>
                 </div>
@@ -262,8 +261,8 @@
                             <img src="frontend/img/destination/6.png" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Indonesia <a href="travel_destination.html">  05 Places</a> </p>
-                            
+                            <p class="d-flex align-items-center">Indonesia <a href="travel_destination.html"> 05 Places</a> </p>
+
                         </div>
                     </div>
                 </div>
@@ -290,12 +289,12 @@
                                 <div class="row no-gutters">
                                     <div class="col-lg-9 col-md-8">
                                         <div class="newsletter_field">
-                                            <input type="email" placeholder="Your mail" >
+                                            <input type="email" placeholder="Your mail">
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-4">
                                         <div class="newsletter_btn">
-                                            <button class="boxed-btn4 " type="submit" >Subscribe</button>
+                                            <button class="boxed-btn4 " type="submit">Subscribe</button>
                                         </div>
                                     </div>
                                 </div>
@@ -326,16 +325,18 @@
                             <a href="#" class="prise">$500</a>
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html"><h3>California</h3></a>
+                            <a href="destination_details.html">
+                                <h3>California</h3>
+                            </a>
                             <p>United State of America</p>
                             <div class="rating_days d-flex justify-content-between">
                                 <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <a href="#">(20 Review)</a>
                                 </span>
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
@@ -352,16 +353,18 @@
                             <a href="#" class="prise">$500</a>
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html"><h3>Korola Megna</h3></a>
+                            <a href="destination_details.html">
+                                <h3>Korola Megna</h3>
+                            </a>
                             <p>United State of America</p>
                             <div class="rating_days d-flex justify-content-between">
                                 <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <a href="#">(20 Review)</a>
                                 </span>
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
@@ -378,16 +381,18 @@
                             <a href="#" class="prise">$500</a>
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html"><h3>London</h3></a>
+                            <a href="destination_details.html">
+                                <h3>London</h3>
+                            </a>
                             <p>United State of America</p>
                             <div class="rating_days d-flex justify-content-between">
                                 <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <a href="#">(20 Review)</a>
                                 </span>
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
@@ -404,16 +409,18 @@
                             <a href="#" class="prise">$500</a>
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html"><h3>Miami Beach</h3></a>
+                            <a href="destination_details.html">
+                                <h3>Miami Beach</h3>
+                            </a>
                             <p>United State of America</p>
                             <div class="rating_days d-flex justify-content-between">
                                 <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <a href="#">(20 Review)</a>
                                 </span>
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
@@ -430,16 +437,18 @@
                             <a href="#" class="prise">$500</a>
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html"><h3>California</h3></a>
+                            <a href="destination_details.html">
+                                <h3>California</h3>
+                            </a>
                             <p>United State of America</p>
                             <div class="rating_days d-flex justify-content-between">
                                 <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <a href="#">(20 Review)</a>
                                 </span>
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
@@ -456,16 +465,18 @@
                             <a href="#" class="prise">$500</a>
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html"><h3>Saintmartine Iceland</h3></a>
+                            <a href="destination_details.html">
+                                <h3>Saintmartine Iceland</h3>
+                            </a>
                             <p>United State of America</p>
                             <div class="rating_days d-flex justify-content-between">
                                 <span class="d-flex justify-content-center align-items-center">
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i> 
-                                     <i class="fa fa-star"></i>
-                                     <a href="#">(20 Review)</a>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <a href="#">(20 Review)</a>
                                 </span>
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
@@ -789,8 +800,10 @@
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
                 </div>
@@ -799,19 +812,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </footer>
 
 
-  <!-- Modal -->
-  <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="serch_form">
-            <input type="text" placeholder="Search" >
-            <button type="submit">search</button>
+    <!-- Modal -->
+    <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="serch_form">
+                    <input type="text" placeholder="Search">
+                    <button type="submit">search</button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
     <!-- link that opens popup -->
-<!--     
+    <!--     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
 
@@ -836,9 +849,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="frontend/js/plugins.js"></script>
     <script src="frontend/js/gijgo.min.js"></script>
     <script src="frontend/js/slick.min.js"></script>
-   
 
-    
+
+
     <!--contact js-->
     <script src="frontend/js/contact.js"></script>
     <script src="frontend/js/jquery.ajaxchimp.min.js"></script>
@@ -852,8 +865,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         $('#datepicker').datepicker({
             iconsLibrary: 'fontawesome',
             icons: {
-             rightIcon: '<span class="fa fa-caret-down"></span>'
-         }
+                rightIcon: '<span class="fa fa-caret-down"></span>'
+            }
         });
     </script>
 </body>

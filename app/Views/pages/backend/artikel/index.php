@@ -27,7 +27,8 @@ Artikel Cagar Budaya
                     </tr>
                 </thead>
                 <tbody>
-                   <?php $no = 1; foreach($data as $artikel) { ?>
+                    <?php $no = 1;
+                    foreach ($data as $artikel) { ?>
                         <tr>
                             <td><?= $no ?></td>
                             <td><?= $artikel['judul'] ?></td>
@@ -42,7 +43,8 @@ Artikel Cagar Budaya
                                 <a href="" class="btn btn-danger"><i class="fa fa-trash-alt"></i> Hapus</a>
                             </td>
                         </tr>
-                   <?php $no++; } ?>
+                    <?php $no++;
+                    } ?>
                 </tbody>
             </table>
         </div>

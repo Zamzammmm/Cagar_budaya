@@ -17,7 +17,7 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="/adminlte/dist/css/adminlte.min.css">
     <style>
-        th{
+        th {
             text-align: center;
         }
     </style>
@@ -104,7 +104,37 @@
                                 <li class="nav-item">
                                     <a href="/admin/artikel/benda" class="nav-link">
                                         <i class="far fa-square nav-icon"></i>
+                                        <p>Practice</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/benda" class="nav-link">
+                                        <i class="far fa-square nav-icon"></i>
                                         <p>Benda</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/bangunan" class="nav-link">
+                                        <i class="far fa-square nav-icon"></i>
+                                        <p>Bangunan</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/struktur" class="nav-link">
+                                        <i class="far fa-square nav-icon"></i>
+                                        <p>Struktur</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/situs" class="nav-link">
+                                        <i class="far fa-square nav-icon"></i>
+                                        <p>Situs</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/kawasan" class="nav-link">
+                                        <i class="far fa-square nav-icon"></i>
+                                        <p>Kawasan</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -142,15 +172,15 @@
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Content Wrapper. Contains page content -->
-                <!-- Main content -->
-                <section class="content">
-                    <div class="container-fluid">
-                        <?= $this->renderSection('content')  ?>
-                        <!-- /.row -->
-                    </div>
-                    <!-- /.container-fluid -->
-                </section>
-                <!-- /.content -->
+            <!-- Main content -->
+            <section class="content">
+                <div class="container-fluid">
+                    <?= $this->renderSection('content')  ?>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container-fluid -->
+            </section>
+            <!-- /.content -->
             <!-- /.content-wrapper -->
         </div>
 
@@ -189,7 +219,7 @@
     <script src="/adminlte/dist/js/adminlte.min.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="/adminlte/dist/js/demo.js"></script>
-    <script src="/adminlte/dist/js/main.js"></script>
+    <!-- <script src="/adminlte/dist/js/main.js"></script> -->
     <?= $this->renderSection('script')  ?>
     <!-- Page specific script -->
     <script>
