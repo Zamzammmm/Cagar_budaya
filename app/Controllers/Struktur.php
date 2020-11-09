@@ -32,8 +32,17 @@ class Struktur extends BaseController
 
     public function save()
     {
+        // ambil gambar
+        $uniq = time();
+        $filefoto = $this->request->getFile('foto');
+        // generate nama foto Random
+        $namafoto = $uniq . "_" . $filefoto->getName();
+        // pindahkan file ke folder img
+        $filefoto->move('img', $namafoto);
+
         $this->strukturModel->save([
             'judul' => $this->request->getVar('judul'),
+            'foto' => $namafoto,
             'no_regnas' => $this->request->getVar('no_regnas'),
             'sk_penetapan' => $this->request->getVar('sk_penetapan'),
             'kategori_cb' => $this->request->getVar('kategori_cb'),
@@ -61,6 +70,7 @@ class Struktur extends BaseController
         $array = array();
         foreach ($struktur as $data) {
             $array['judul'] = $data['judul'];
+            $array['foto'] = $data['foto'];
             $array['no_regnas'] = $data['no_regnas'];
             $array['sk_penetapan'] = $data['sk_penetapan'];
             $array['kategori_cb'] = $data['kategori_cb'];
@@ -75,6 +85,18 @@ class Struktur extends BaseController
 
     public function update($id)
     {
+        if (!empty($_FILES['foto']['name'])) {
+            $uniq = time();
+            $filefoto = $this->request->getFile('foto');
+            // Findah Folder
+            $namafoto = $uniq . "_" . $filefoto->getName();
+
+            // Ambil Nama
+            $filefoto->move('img', $namafoto);
+        } else {
+            $namafoto = $this->request->getVar('oldfoto');
+        }
+
         $this->strukturModel->save([
             'id' => $id,
             'judul' => $this->request->getVar('judul'),
@@ -85,6 +107,7 @@ class Struktur extends BaseController
             'provinsi' => $this->request->getVar('provinsi'),
             'nama_pemilik' => $this->request->getVar('nama_pemilik'),
             'nama_pengelola' => $this->request->getVar('nama_pengelola'),
+            'foto' => $namafoto
         ]);
 
         session()->setFlashdata('pesan', 'Data berhasil diubah.');

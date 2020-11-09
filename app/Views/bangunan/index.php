@@ -28,6 +28,7 @@ Bangunan Cagar Budaya
                     <tr>
                         <th width="10px">No</th>
                         <th>Judul</th>
+                        <th>Foto</th>
                         <th>NO REGNAS</th>
                         <th>Nama Pemilik</th>
                         <th>Aksi</th>
@@ -39,6 +40,9 @@ Bangunan Cagar Budaya
                         <tr>
                             <td><?= $no ?></td>
                             <td><?= $b['judul'] ?></td>
+                            <td style="text-align: center;">
+                                <img src="/img/<?= $b['foto']; ?>" class="zoom" alt="">
+                            </td>
                             <td style="text-align: center;">
                                 <?= $b['no_regnas'] ?>
                             </td>
@@ -78,16 +82,26 @@ $generateRandom = rand(11111111, 999999999) . '.' . rand(00, 99) . '.' . rand(11
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Form Buat Artikel Bangunan</h5>
+                <h5 class="modal-title" id="exampleModalLabel"><b>Form Buat Artikel Bangunan</b></h5>
                 <button type="button" id="close" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <form action="/bangunan/save" id="formBangunan" method="post" enctype="multipart/form-data">
+                    <input type="hidden" name="oldfoto" class="oldfoto">
                     <div class="form-group">
                         <label for="judul" class="control-label">Judul</label>
                         <input type="text" name="judul" id="judul" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="foto">Foto</label>
+                        <div id="old_foto"></div>
+                        <div id="file_name"></div>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="foto" name="foto">
+                            <label class="custom-file-label" for="foto">Pilih Gambar</label>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="no_regnas" class="control-label">NO REGNAS</label>
@@ -130,7 +144,7 @@ $generateRandom = rand(11111111, 999999999) . '.' . rand(00, 99) . '.' . rand(11
 <?= $this->section('script'); ?>
 <script>
     $('.edit').click(function() {
-        $('#exampleModalLabel').html('Form Edit Data Bangunan');
+        $('#exampleModalLabel').html("<strong>Form Edit Data Bangunan</strong>");
         var id = $(this).data('id');
         $('#formBangunan').attr('action', '/bangunan/update/' + id);
 
@@ -148,6 +162,13 @@ $generateRandom = rand(11111111, 999999999) . '.' . rand(00, 99) . '.' . rand(11
                     // alert(key);
                     $('#id').val(value.id);
                     $('#judul').val(value.judul);
+                    var foto = value.foto;
+                    // alert(foto);
+                    var old_foto = "<h6>Gambar Sebelumnya : <img src='/img/" + foto + "' width='100px;' class='margin: 10px;' alt=''> </h6>";
+                    var file_name = "<h6>Nama File : " + foto + "</h6>";
+                    $('#file_name').html(file_name);
+                    $('#old_foto').html(old_foto);
+                    $('.oldfoto').attr("value", value.foto);
                     $('#no_regnas').val(value.no_regnas);
                     $('#sk_penetapan').val(value.sk_penetapan);
                     $('#kategori_cb').val(value.kategori_cb);
