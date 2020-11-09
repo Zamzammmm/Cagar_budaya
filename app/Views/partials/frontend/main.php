@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="frontend/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="frontend/img/logocagarbudaya.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -44,7 +44,7 @@
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="frontend/img/logo.png" alt="">
+                                        <img src="frontend/img/logocb.png" alt="" width="200">
                                     </a>
                                 </div>
                             </div>
